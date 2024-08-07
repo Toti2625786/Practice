@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.header img {
+    width: 100px; /* Adjust the width as needed */
+    height: auto;
+    margin-right: 20px;
+}
+.header h1 {
+    margin: 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+.header h2 {
+    margin: 0;
+    font-size: 22px;
+    color: black;
+}
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+    text-decoration: underline; /* Added underline */
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    width: 50%; /* Adjusted width for three columns */
+}
+
+.column p {
+    margin: 5px 0;
+    text-decoration: underline; /* Added underline to all paragraphs in column */
+    margin-bottom: 3vw;
+}
+
+footer {
+    margin-top: 20px;
+    margin-left: 60%;
+    text-align: start;
+}
+
+footer p {
+    margin: 5px 0;
+    text-decoration: underline; /* Added underline */
+}
+
+footer img {
+    width: 100px;
+    display: block;
+    margin: auto;
+}
